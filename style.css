@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.color {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 100px;
+  width: 200px;
+  inline-size: auto;
+  display:  inline-block;
+}
+
+#black {
+  background-color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#pixel-board {
+  display:inline-grid;
+  grid-template-columns:auto auto auto auto auto;
+  
+}
+
+.m20px {
+  margin: 20px;
+}
+
+.main-container {
+  background-color: purple;
+  margin: 40px auto;
+  height: auto;
+  width: 300px;
+  padding: 150px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+  margin: 0.5px;
+  background-color: white;
+}
+
+body {
+  text-align: center;
+  background-color: gray;
+}
